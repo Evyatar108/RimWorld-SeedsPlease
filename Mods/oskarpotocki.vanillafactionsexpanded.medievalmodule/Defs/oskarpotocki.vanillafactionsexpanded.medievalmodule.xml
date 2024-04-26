@@ -29,7 +29,6 @@
 			</li>
 		</modExtensions>
 		<graphicData><texPath>Seeds/HealrootTree</texPath></graphicData>
-		<tradeability>None</tradeability>
 		<descriptionHyperlinks>
 			<ThingDef>VFEM_Plant_TreeHealroot</ThingDef>
 		</descriptionHyperlinks>

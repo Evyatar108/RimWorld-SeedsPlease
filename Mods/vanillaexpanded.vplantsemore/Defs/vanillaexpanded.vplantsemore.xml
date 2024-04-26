@@ -3,6 +3,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Moss</defName>
 		<label>moss seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Moss</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Moss</ThingDef>
 		</descriptionHyperlinks>
@@ -19,6 +22,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Tinctshroom</defName>
 		<label>tinctshroom seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Tinctshroom</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Tinctshroom</ThingDef>
 		</descriptionHyperlinks>
@@ -35,6 +41,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Healshroom</defName>
 		<label>healshroom seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Healshroom</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Healshroom</ThingDef>
 		</descriptionHyperlinks>
@@ -51,6 +60,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Celery</defName>
 		<label>celery seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Celery</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Celery</ThingDef>
 		</descriptionHyperlinks>
@@ -67,6 +79,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Pineapple</defName>
 		<label>pineapple seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Pineapple</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Pineapple</ThingDef>
 		</descriptionHyperlinks>
@@ -83,6 +98,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Lettuce</defName>
 		<label>lettuce seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Lettuce</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Lettuce</ThingDef>
 		</descriptionHyperlinks>
@@ -99,6 +117,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_BrusselsSprout</defName>
 		<label>brussels sprout seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_BrusselsSprout</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_BrusselsSprout</ThingDef>
 		</descriptionHyperlinks>
@@ -115,6 +136,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Cassava</defName>
 		<label>cassava seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Cassava</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Cassava</ThingDef>
 		</descriptionHyperlinks>
@@ -131,6 +155,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_SweetPotato</defName>
 		<label>sweet potato seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_SweetPotato</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_SweetPotato</ThingDef>
 		</descriptionHyperlinks>
@@ -147,6 +174,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Radish</defName>
 		<label>radish seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Radish</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Radish</ThingDef>
 		</descriptionHyperlinks>
@@ -163,6 +193,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Buckwheat</defName>
 		<label>buckwheat seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Buckwheat</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Buckwheat</ThingDef>
 		</descriptionHyperlinks>
@@ -179,6 +212,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Peanut</defName>
 		<label>peanut seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Peanut</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Peanut</ThingDef>
 		</descriptionHyperlinks>
@@ -195,6 +231,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Sunflower</defName>
 		<label>sunflower seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Sunflower</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Sunflower</ThingDef>
 		</descriptionHyperlinks>
@@ -211,6 +250,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Okra</defName>
 		<label>okra seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Okra</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Okra</ThingDef>
 		</descriptionHyperlinks>
@@ -227,6 +269,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Garlic</defName>
 		<label>garlic seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Garlic</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Garlic</ThingDef>
 		</descriptionHyperlinks>
@@ -243,6 +288,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Carrot</defName>
 		<label>carrot seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Carrot</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Carrot</ThingDef>
 		</descriptionHyperlinks>
@@ -259,6 +307,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Beans</defName>
 		<label>bean seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Beans</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Beans</ThingDef>
 		</descriptionHyperlinks>
@@ -275,6 +326,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Chickpea</defName>
 		<label>chickpea seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Chickpea</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Chickpea</ThingDef>
 		</descriptionHyperlinks>
@@ -291,6 +345,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_BellPepper</defName>
 		<label>bellpepper seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_BellPepper</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_BellPepper</ThingDef>
 		</descriptionHyperlinks>
@@ -298,6 +355,7 @@
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>VCE_BellPepper</li>
+					<li>VCE_YellowBellPepper</li>
 				</sources>
 			</li>
 		</modExtensions>
@@ -307,6 +365,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Taro</defName>
 		<label>taro seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Taro</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Taro</ThingDef>
 		</descriptionHyperlinks>
@@ -323,6 +384,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Watercress</defName>
 		<label>watercress seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Watercress</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Watercress</ThingDef>
 		</descriptionHyperlinks>
@@ -339,6 +403,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Lotus</defName>
 		<label>lotus seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Lotus</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Lotus</ThingDef>
 		</descriptionHyperlinks>
@@ -355,6 +422,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_WaterChestnut</defName>
 		<label>waterchestnut seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_WaterChestnut</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_WaterChestnut</ThingDef>
 		</descriptionHyperlinks>
@@ -371,6 +441,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Melon</defName>
 		<label>melon seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Melon</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Melon</ThingDef>
 		</descriptionHyperlinks>
@@ -387,6 +460,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Cucumber</defName>
 		<label>cucumber seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Cucumber</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Cucumber</ThingDef>
 		</descriptionHyperlinks>
@@ -403,6 +479,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_ButternutSquash</defName>
 		<label>butternut squash seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_ButternutSquash</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_ButternutSquash</ThingDef>
 		</descriptionHyperlinks>
@@ -419,6 +498,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_AloeVera</defName>
 		<label>aloevera seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_AloeVera</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_AloeVera</ThingDef>
 		</descriptionHyperlinks>
@@ -435,6 +517,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Canola</defName>
 		<label>canola seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_Canola</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Canola</ThingDef>
 		</descriptionHyperlinks>
@@ -451,6 +536,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Avocado</defName>
 		<label>avocado seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_TreeAvocado</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_TreeAvocado</ThingDef>
 		</descriptionHyperlinks>
@@ -467,6 +555,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Olive</defName>
 		<label>olive seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_TreeOlive</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_TreeOlive</ThingDef>
 		</descriptionHyperlinks>
@@ -483,6 +574,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_CoconutPalm</defName>
 		<label>coconut palm seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_TreeCoconut</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_CoconutPalm</ThingDef>
 		</descriptionHyperlinks>
@@ -499,6 +593,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Almond</defName>
 		<label>almond seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_TreeAlmond</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_TreeAlmond</ThingDef>
 		</descriptionHyperlinks>
@@ -515,6 +612,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCE_Mango</defName>
 		<label>mango seeds</label>
+		<graphicData>
+			<texPath>Seeds/PlantsExpandedMore/VCE_TreeMango</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_TreeMango</ThingDef>
 		</descriptionHyperlinks>

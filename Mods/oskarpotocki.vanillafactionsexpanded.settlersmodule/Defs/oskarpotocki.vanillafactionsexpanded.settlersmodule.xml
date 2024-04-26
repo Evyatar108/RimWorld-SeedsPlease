@@ -8,6 +8,7 @@
 					<li>Plant_Chemroot</li>
 				</sources>
 				<extractable>False</extractable>
+				<extraChance>0.33</extraChance>
 			</li>
 		</modExtensions>
 		<graphicData>

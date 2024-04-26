@@ -8,6 +8,7 @@
 					<li>PlantBlazebulb</li>
 				</sources>
 			<extraChance>0.33</extraChance>
+			<extractable>False</extractable>
 			</li>
 		</modExtensions>
 		<graphicData>

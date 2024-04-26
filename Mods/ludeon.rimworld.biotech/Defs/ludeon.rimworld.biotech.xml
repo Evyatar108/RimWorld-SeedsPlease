@@ -3,6 +3,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Toxipotato</defName>
 		<label>toxipotato seeds</label>
+		<graphicData>
+			<texPath>Seeds/Biotech/Toxipotato</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Toxipotato</ThingDef>
 		</descriptionHyperlinks>
@@ -19,6 +22,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_PebbleCactus</defName>
 		<label>pebblecactus seeds</label>
+		<graphicData>
+			<texPath>Seeds/Biotech/PebbleCactus</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>Plant_PebbleCactus</ThingDef>
 		</descriptionHyperlinks>
@@ -35,6 +41,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_GrayPine</defName>
 		<label>graypine seeds</label>
+		<graphicData>
+			<texPath>Seeds/Biotech/TreeGrayPine</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeGrayPine</ThingDef>
 		</descriptionHyperlinks>
@@ -51,6 +60,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Witchwood</defName>
 		<label>witchwood seeds</label>
+		<graphicData>
+			<texPath>Seeds/Biotech/Witchwood</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Witchwood</ThingDef>
 		</descriptionHyperlinks>
@@ -67,6 +79,9 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RatPalm</defName>
 		<label>ratpalm seeds</label>
+		<graphicData>
+			<texPath>Seeds/Biotech/RatPalm</texPath>
+		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>Plant_RatPalm</ThingDef>
 		</descriptionHyperlinks>

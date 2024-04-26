@@ -17,6 +17,7 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AB_DeadBower</defName>
 		<label>deadbower seeds</label>
+		<tradeability>Sellable</tradeability>
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
@@ -32,6 +33,7 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AB_Jungle</defName>
 		<label>jungle tree seeds</label>
+		<tradeability>Sellable</tradeability>
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>

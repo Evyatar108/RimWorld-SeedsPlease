@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Patch>	
+<Patch>
+
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Factions Expanded - Vikings</li>
@@ -10,6 +11,9 @@
 				<ThingDef ParentName="SeedBase">
 					<defName>Seed_VCE_Blueberry</defName>
 					<label>blueberry seeds</label>
+					<graphicData>
+						<texPath>Seeds/PlantsExpandedMore/VCE_Blueberry</texPath>
+					</graphicData>
 					<descriptionHyperlinks>
 						<ThingDef>VCE_Blueberry</ThingDef>
 					</descriptionHyperlinks>
@@ -37,11 +41,16 @@
 						<ThingDef ParentName="SeedBase">
 							<defName>Seed_VCE_Barley</defName>
 							<label>barley seeds</label>
+							<graphicData>
+								<texPath>Seeds/PlantsExpandedMore/VCE_BarleyA</texPath>
+							</graphicData>
 							<descriptionHyperlinks>
 								<ThingDef>VCE_Barley</ThingDef>
 							</descriptionHyperlinks>
 							<modExtensions>
 								<li Class="SeedsPleaseLite.Seed">
+									<extraChance>0.33</extraChance>
+									<extractable>False</extractable>
 									<sources>
 										<li>VCE_Barley</li>
 									</sources>
@@ -53,6 +62,9 @@
 						<ThingDef ParentName="SeedBase">
 							<defName>Seed_VCE_Sorghum</defName>
 							<label>sorghum seeds</label>
+							<graphicData>
+								<texPath>Seeds/PlantsExpandedMore/VCE_Sorghum</texPath>
+							</graphicData>
 							<descriptionHyperlinks>
 								<ThingDef>VCE_Sorghum</ThingDef>
 							</descriptionHyperlinks>
@@ -69,6 +81,9 @@
 						<ThingDef ParentName="SeedBase">
 							<defName>Seed_VCE_Rye</defName>
 							<label>rye seeds</label>
+							<graphicData>
+								<texPath>Seeds/PlantsExpandedMore/VCE_Rye</texPath>
+							</graphicData>
 							<descriptionHyperlinks>
 								<ThingDef>VCE_Rye</ThingDef>
 							</descriptionHyperlinks>
@@ -85,6 +100,9 @@
 						<ThingDef ParentName="SeedBase">
 							<defName>Seed_VCE_Oats</defName>
 							<label>oats seeds</label>
+							<graphicData>
+								<texPath>Seeds/PlantsExpandedMore/VCE_Oats</texPath>
+							</graphicData>
 							<descriptionHyperlinks>
 								<ThingDef>VCE_Oats</ThingDef>
 							</descriptionHyperlinks>
@@ -96,6 +114,21 @@
 								</li>
 							</modExtensions>
 						</ThingDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+				
+					<xpath>Defs/ThingDef[defName="VCE_Oats"]/plant/harvestedThingDef</xpath>
+					<value>
+						<harvestedThingDef>VCE_RawOats</harvestedThingDef>
+					</value>
+				</li>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VCE_Oats"]/modExtensions/li[secondaryOutput="VCE_RawOats"]/secondaryOutput</xpath>
+					<value>
+						<secondaryOutput>VCE_Flour</secondaryOutput>
 					</value>
 				</li>
 			</operations>

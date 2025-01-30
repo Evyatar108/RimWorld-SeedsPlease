@@ -11,6 +11,9 @@ using System.Linq;
 using static SeedsPleaseLite.ResourceBank.Defs;
 using Settings = SeedsPleaseLite.ModSettings_SeedsPleaseLiteRedux;
 using static SeedsPleaseLite.ResourceBank;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Serialization;
 
 [StaticConstructorOnStartup]
 public static class SeedsPleaseUtility
@@ -64,9 +67,17 @@ public static class SeedsPleaseUtility
 
         AddButchery(butcheryToResolve);
 
-        //Resolve categories
         SeedExtractable.ResolveReferences();
         ExtractSeeds.ResolveReferences();
+
+        var storageBuildingDefs = DefDatabase<ThingDef>.AllDefs.Where(x =>
+            !string.IsNullOrWhiteSpace(x.building?.storageGroupTag)
+            || x.building?.fixedStorageSettings != null
+            || x.building?.defaultStorageSettings != null);
+        foreach (ThingDef storageBuildingDef in storageBuildingDefs)
+        {
+            storageBuildingDef.ResolveReferences();
+        }
     }
 
     static ThingDef[] GetSeedsAndPlants(out List<ThingDef> seedCache, out List<(ThingDef, Seed)> butcheryToResolve)
@@ -155,6 +166,7 @@ public static class SeedsPleaseUtility
                 }
             }
         }
+
         return neededToGenerate;
     }
 
@@ -197,6 +209,14 @@ public static class SeedsPleaseUtility
                 Log.Warning("[Seeds Please: Lite Redux] Could not find template seed...");
                 return;
             }
+
+            /*
+            seed = DeepClone(template);
+            seed.defName = defName;
+            seed.label = label.ToLower() + " seeds";
+            seed.modExtensions = new List<DefModExtension>();
+            */
+
             seed = new ThingDef()
             {
                 defName = defName,
@@ -226,6 +246,7 @@ public static class SeedsPleaseUtility
                 drawerType = template.drawerType,
                 comps = template.comps,
                 allowedArchonexusCount = template.allowedArchonexusCount,
+                virtualDefParent = template.virtualDefParent,
             };
 
             //Add extension
@@ -279,6 +300,28 @@ public static class SeedsPleaseUtility
                         new XElement("li", thingDef.defName)))));
         }
     }
+
+    static T DeepClone<T>(T obj)
+    {
+        if (!typeof(T).IsSerializable)
+        {
+            throw new ArgumentException("The type must be serializable.", nameof(obj));
+        }
+
+        if (ReferenceEquals(obj, null))
+        {
+            return default;
+        }
+
+        using (var ms = new MemoryStream())
+        {
+            IFormatter formatter = new BinaryFormatter();
+            formatter.Serialize(ms, obj);
+            ms.Seek(0, SeekOrigin.Begin);
+            return (T)formatter.Deserialize(ms);
+        }
+    }
+
     static void ProcessSeed(ThingDef thingDef, Seed seedEx, bool resolveBase = false)
     {
         if (resolveBase)
